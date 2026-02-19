@@ -17,6 +17,10 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        spring:
+          jpa:
+            open-in-view: false
+
 
 server:
   port: 8080
